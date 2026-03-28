@@ -46,3 +46,16 @@ python app.py
 ## 👨‍💻 Author
 
 Part of my cybersecurity learning journey.
+
+
+
+
+
+## API Testing
+
+You can test the API using curl:
+
+```bash
+curl -X POST http://127.0.0.1:5000/analyze \
+-H "Content-Type: application/json" \
+-d '{"log": "LOGIN SUCCESS - admin - 45.33.32.1"}'
